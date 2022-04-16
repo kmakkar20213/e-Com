@@ -1,7 +1,7 @@
 .header{
     display:flex;
     justify-content: space-evenly;
-    position:fixed;
+    position:sticky;
     background-color: black;
     width: 100vw;
     padding: 0.5% 1% 0.5%;

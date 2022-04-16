@@ -1,0 +1,26 @@
+.product_card{
+    padding: 1.5%;
+    display: flex;
+    gap: 0.5rem;
+    width: 320px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1%;
+    border: 1px solid #bbb;
+}
+
+.cart_button{
+    width: 50%;
+    align-self: center;
+    background-color: #f0c14b;
+    border-color: #a88734;
+}
+
+.product_price{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.product_img{
+    background-color: #bbb;
+}

@@ -13,6 +13,7 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/checkout" element={<Checkout />} />
+
                 </Routes>
             </div>
         </Router>

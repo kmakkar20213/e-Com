@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 .header{
     display:flex;
     justify-content: space-evenly;
@@ -6,6 +10,16 @@
     width: 98%;
     padding: 0.5% 1% 0.5%;
 }
+Link{
+    color: #fff;
+    text-decoration: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .header_nav,.header_search{
     display: flex;

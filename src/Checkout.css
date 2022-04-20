@@ -21,6 +21,7 @@
 
 .checkout_ad{
     width: 100%;
+    object-fit: cover;
     height: 80px;
     margin-bottom: 10px;
     flex: 2;

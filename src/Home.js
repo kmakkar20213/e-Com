@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 import "./Home.css";
 import Product from "./Product";
 import Prods from "./Products";
@@ -23,6 +24,7 @@ function creatProd(Prods) {
 function Home() {
     return (
         <div className="home">
+            <Header />
             <div className="home_container">
                 <img
                     className="home_img"

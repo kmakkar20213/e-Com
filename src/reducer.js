@@ -29,14 +29,14 @@ const reducer = (state, action) => {
             // );
             var index = -1;
             for (var i = 0; i < state.cart?.length; i++) {
-                if (state.cart[i].key === action.key) {
+                if (state.cart[i].id === action.id) {
                     index = i;
                     break;
                 }
             }
             let newCart = [...state.cart];
             let newNewCart = [];
-            console.log(index + "m");
+            // console.log(index + "m");
 
             if (index >= 0) {
                 // newCart.splice(index, 1);
@@ -47,10 +47,10 @@ const reducer = (state, action) => {
                 }
             } else {
                 console.warn(
-                    `Cant remove product (key: ${action.key}) as it is not in the cart!`
+                    `Cant remove product (id: ${action.id}) as it is not in the cart!`
                 );
             }
-            console.log(newNewCart);
+            // console.log(newNewCart);
             return {
                 ...state,
                 cart: newNewCart,

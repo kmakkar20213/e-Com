@@ -8,10 +8,10 @@ function CheckoutProduct(props) {
     // console.log(props);
     // console.log(props.id);
     const deleteFromCart = () => {
-        console.log(props);
+        // console.log(props);
         dispatch({
             type: "DELETE_FROM_CART",
-            key: props.id,
+            id: props.id,
         });
         // console.log(cart);
     };

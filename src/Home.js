@@ -10,8 +10,8 @@ function creatProd(Prods) {
     }
     return (
         <Product
-            id={Prods.key}
-            key={Prods.key}
+            id={Prods.id}
+            // key={Prods.key}
             title={Prods.title}
             price={Prods.price}
             img={Prods.img}

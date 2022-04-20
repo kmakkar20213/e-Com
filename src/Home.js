@@ -10,6 +10,8 @@ function creatProd(Prods) {
     }
     return (
         <Product
+            id={Prods.key}
+            key={Prods.key}
             title={Prods.title}
             price={Prods.price}
             img={Prods.img}
@@ -25,6 +27,7 @@ function Home() {
                 <img
                     className="home_img"
                     src="https://1.bp.blogspot.com/-1WbkPYXjLyY/XvIRMmYnckI/AAAAAAAAO4Y/A0dKSJaDEmYQXtGWK4RTMLPUNgCEmx_ZQCK4BGAsYHg/s1944/Knives%2BOut%2BMovie%2BPoster.png"
+                    alt=""
                 />
             </div>
             <div className="products">{Prods.map(creatProd)}</div>

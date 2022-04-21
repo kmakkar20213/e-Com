@@ -9,7 +9,7 @@ function Product(props) {
         dispatch({
             type: "ADD_TO_CART",
             item: {
-                key: props.id,
+                id: props.id,
                 title: props.title,
                 img: props.img,
                 price: props.price,

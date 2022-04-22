@@ -35,7 +35,7 @@ function Header() {
                     <div onClick={handleAuth} className="header_option">
                         <span className="option_one">Hello,</span>
                         <span className="option_two">
-                            {user ? "Sign Out" : "Sign Iin"}
+                            {user ? "Sign Out" : "Sign In"}
                         </span>
                     </div>
                 </Link>

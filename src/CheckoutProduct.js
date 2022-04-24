@@ -31,7 +31,9 @@ function CheckoutProduct(props) {
                 <div className="checkout_product_rating">
                     <p>{rating}</p>
                 </div>
-                <button onClick={deleteFromCart}>Delete From Cart</button>
+                {!props.hideButton && (
+                    <button onClick={deleteFromCart}>Delete From Cart</button>
+                )}
             </div>
         </div>
     );

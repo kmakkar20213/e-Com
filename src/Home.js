@@ -12,7 +12,7 @@ function creatProd(Prods) {
     return (
         <Product
             id={Prods.id}
-            // key={Prods.key}
+            key={Prods.id}
             title={Prods.title}
             price={Prods.price}
             img={Prods.img}
